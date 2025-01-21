@@ -14,7 +14,7 @@ app = Flask(__name__)
 
 # cursor = connection.cursor()
 
-DATABASE_URL = os.getenv('postgresql://favquotes_9kvq_user:8RinzX9aO4MS0t30T0H2qcP9yNglwE38@dpg-cu7ipg3v2p9s73bgjt3g-a/favquotes_9kvq')
+DATABASE_URL = os.getenv('postgresql://favquotes_9kvq_user:8RinzX9aO4MS0t30T0H2qcP9yNglwE38@dpg-cu7ipg3v2p9s73bgjt3g-a.oregon-postgres.render.com/favquotes_9kvq')
 connection = psycopg2.connect(DATABASE_URL)
 cursor = connection.cursor()
 
