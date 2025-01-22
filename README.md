@@ -23,5 +23,5 @@ This project is a simple yet functional platform for collecting and managing you
 - **Backend**: Flask (Python)
 - **Database**: PostgreSQL (connected via `psycopg2`)
 - **Frontend**: HTML, CSS (Bootstrap for styling)
-- **Deployment**: Render
+- **Deployment**: [Render](https://fav-quotes-68jc.onrender.com)
 
