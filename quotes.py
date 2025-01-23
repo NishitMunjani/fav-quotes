@@ -7,7 +7,7 @@ app = Flask(__name__)
 # connection = psycopg2.connect(
 #     dbname="quotes",
 #     user="postgres",
-#     password="mnk#1234",
+#     password="123456", # This password will not work locally, you need different password.., previous one was also not working.
 #     host="localhost",
 #     port="5432"
 # )
@@ -19,7 +19,7 @@ DATABASE_URL = os.getenv('DATABASE_URL')
 connection = psycopg2.connect(DATABASE_URL)
 cursor = connection.cursor()
 
-create_table_query = """
+create_table_query = """ 
 CREATE TABLE IF NOT EXISTS favquotes (
     id SERIAL PRIMARY KEY,
     author VARCHAR(30),
